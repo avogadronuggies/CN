@@ -1,0 +1,80 @@
+Here’s a quick summary of the syntax for each command in Windows:
+
+1. **ipconfig**  
+   ```cmd
+   ipconfig
+   ipconfig /all
+   ipconfig /release
+   ipconfig /renew
+   ```
+
+2. **nslookup**  
+   ```cmd
+   nslookup <hostname>
+   ```
+
+3. **ping**  
+   ```cmd
+   ping <hostname/IP>
+   ```
+
+4. **tracert**  
+   ```cmd
+   tracert <hostname/IP>
+   ```
+
+5. **arp**  
+   ```cmd
+   arp -a             // Display ARP table
+   arp -d <IP>        // Delete an ARP entry
+   arp -s <IP> <MAC>  // Add a static ARP entry
+   ```
+
+6. **route**  
+   ```cmd
+   route print                       // Display routing table
+   route add <destination> MASK <subnet mask> <gateway> // Add a route
+   route delete <destination>        // Delete a route
+   ```
+
+7. **netsh**  
+   ```cmd
+   netsh interface ip show config        // View IP configuration
+   netsh wlan show profile               // View Wi-Fi profiles
+   netsh firewall set opmode disable     // Disable firewall
+   ```
+
+8. **netstat**  
+   ```cmd
+   netstat -a           // Show all connections and listening ports
+   netstat -n           // Show IP addresses and port numbers
+   netstat -s           // Show network statistics
+   ```
+
+9. **hostname**  
+   ```cmd
+   hostname
+   ```
+
+10. **getmac**  
+   ```cmd
+   getmac
+   ```
+
+11. **nbtstat**  
+   ```cmd
+   nbtstat -a <hostname>    // Display NetBIOS name table for remote machine
+   nbtstat -c               // Show NetBIOS name cache
+   ```
+
+12. **pathping**  
+   ```cmd
+   pathping <hostname/IP>
+   ```
+
+13. **systeminfo**  
+   ```cmd
+   systeminfo
+   ``` 
+
+These commands are ready to use in the Windows Command Prompt (`cmd`).
